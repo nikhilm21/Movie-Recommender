@@ -4,7 +4,8 @@ This app recommends you next 10 movies to watch based on your 3 choices , which 
 # How to Install:
 Step 1: On the right side click on "clone or download" icon.<br>
 Step 2: Click on download ZIP <br>
-Step 3: Choose the directory and open the folders <br>
+Step 3: Choose the directory and extract it<br>
+Step 4: Open the folder <br>
 
 Follow the how to use tab for futher steps.
 
