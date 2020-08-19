@@ -15,6 +15,8 @@ getPoster <- function(title) {
   )
 }
 
+
+#server 
 shinyServer(function(input, output) {
   
   #Plotting the Graphs
@@ -178,3 +180,6 @@ shinyServer(function(input, output) {
   
 })
 
+  
+  
+# This is the end of server file
