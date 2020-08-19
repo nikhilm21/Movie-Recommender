@@ -1,8 +1,11 @@
+
+#importing required libraries
 library(shinydashboard)
 library(recommenderlab)
 library(dplyr)
 library(TMDb)
 library(e1071)
+
 
 # Load the movie & ratings data
 load('MovieDB.rda')
