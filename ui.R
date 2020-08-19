@@ -2,11 +2,14 @@ library(shinydashboard)
 library(recommenderlab)
 library(dplyr)
 library(TMDb)
+library(e1071)
 
 # Load the movie & ratings data
 load('MovieDB.rda')
 titles <- colnames(MovieDB)
 
+
+#UI dashboard code 
 shinyUI(dashboardPage(
   skin = "yellow",
   dashboardHeader(title = "Movie Recommendation Engine", titleWidth = 400),
@@ -54,7 +57,7 @@ shinyUI(dashboardPage(
     ))
   )),
 
-
+#dashboard functionality
   dashboardBody(
     
     tags$head(tags$style(HTML('
