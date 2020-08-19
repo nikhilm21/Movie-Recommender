@@ -3,7 +3,7 @@
 load('MovieDB.rda')
 titles <- colnames(MovieDB)
 ratings <- colMeans(MovieDB)
-
+#new update
 api_key <- "a04e44ac390066ec3937aefdd23be749"
 config <- configuration(api_key)
 
