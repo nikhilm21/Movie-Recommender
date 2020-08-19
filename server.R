@@ -1,5 +1,5 @@
 #server.R
-
+#loading dataset
 load('MovieDB.rda')
 titles <- colnames(MovieDB)
 ratings <- colMeans(MovieDB)
